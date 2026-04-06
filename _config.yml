@@ -1,0 +1,46 @@
+title: "我的个人博客"
+description: "记录思考与技术的地方"
+author: "aatang"
+email: ""
+url: ""  # 填写你的 GitHub Pages 地址，如 https://username.github.io
+baseurl: ""  # 如果仓库名不是 username.github.io，填写 /仓库名
+
+# 主题
+theme: minima
+
+# 语言与时区
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 分页
+paginate: 10
+paginate_path: "/page:num/"
+
+# Markdown 渲染器
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# 排除构建目录
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+
+# 社交链接（minima 主题支持）
+minima:
+  social_links:
+    github: aatang  # 替换为你的 GitHub 用户名
