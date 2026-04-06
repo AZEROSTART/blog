@@ -1,9 +1,9 @@
 title: "我的个人博客"
 description: "记录思考与技术的地方"
-author: "aatang"
+author: "AZEROSTART"
 email: ""
-url: ""  # 填写你的 GitHub Pages 地址，如 https://username.github.io
-baseurl: ""  # 如果仓库名不是 username.github.io，填写 /仓库名
+url: "https://AZEROSTART.github.io/blog"  # 填写你的 GitHub Pages 地址，如 https://username.github.io
+baseurl: "/blog"  # 如果仓库名不是 username.github.io，填写 /仓库名
 
 # 主题
 theme: minima
@@ -43,4 +43,4 @@ exclude:
 # 社交链接（minima 主题支持）
 minima:
   social_links:
-    github: aatang  # 替换为你的 GitHub 用户名
+    github: AZEROSTART  # 替换为你的 GitHub 用户名
